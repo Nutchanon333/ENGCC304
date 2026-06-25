@@ -5,9 +5,11 @@
 int main() {
     _setmode(_fileno(stdout), _O_BINARY);
 
-    char name[100];
+    char name[50];
+    int age;
     scanf("%s", name);
-    printf("Hello, %s\n", name);
-    printf("Welcome to C Programming\n");
+    scanf("%d", &age);
+    printf("My name is %s\n", name);
+    printf("I am %d years old.\n", age);
     return 0;
 }

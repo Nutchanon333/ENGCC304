@@ -5,9 +5,9 @@
 int main() {
     _setmode(_fileno(stdout), _O_BINARY);
 
-    char name[100];
+    char name[50];
     scanf("%s", name);
-    printf("Hello, %s\n", name);
-    printf("Welcome to C Programming\n");
+    printf("%s", name);
+    printf("Nice to meet you\n");
     return 0;
 }
